@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: #f3f3f3;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Entre em Contato</h2>
+  <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+ 
+    <button type="submit">Enviar</button>
+  </form>
+<h2> Outros Contatos</h2>
+<p> Veja meu perfil no <a href="https://www.linkedin.com/login/pt">Linkedln</a> ou no  <a href="https://github.com/">GitHub</a> </p>
+<a href="file:///C:/Users/Aluno_Tarde/Downloads/INDEX.HTML">Voltar para a página principal</a>
+
+
+
+</body>
+</html>
